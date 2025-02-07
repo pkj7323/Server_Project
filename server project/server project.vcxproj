@@ -19,7 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="coreGlobal.h" />
+    <ClInclude Include="coreMacro.h" />
     <ClInclude Include="coreTLS.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="coreTLS.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

@@ -16,7 +16,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="coreTLS.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>소스 파일</Filter>
     </ClInclude>
+    <ClInclude Include="coreMacro.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="coreGlobal.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="coreTLS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
