@@ -18,7 +18,7 @@
 	*crash = 0xDEADBEEF;					\
 }
 
-//
+//조건이 true일 때만 크래시
 #define ASSERT_CRASH(expr)					\
 {											\
 	if (!(expr))							\

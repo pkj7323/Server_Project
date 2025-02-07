@@ -13,21 +13,45 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ServerCore">
+      <UniqueIdentifier>{d962c0b2-22d2-463b-82a5-332468803fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer">
+      <UniqueIdentifier>{4d2694e7-be20-4947-871e-543741c8de97}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="coreTLS.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="coreMacro.h">
-      <Filter>소스 파일</Filter>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="coreGlobal.h">
-      <Filter>소스 파일</Filter>
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="coreMacro.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="coreTLS.h">
+      <Filter>ServerCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>ServerCore</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="coreGlobal.cpp">
+      <Filter>ServerCore</Filter>
+    </ClCompile>
     <ClCompile Include="coreTLS.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>ServerCore</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>ServerCore</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServer.cpp">
+      <Filter>GameServer</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
